@@ -35,7 +35,12 @@ namespace landing.Controllers
                 Comentario = collection["comentario"]
             };
             ma.Alta(usu);
-            return RedirectToAction("Index");
+            return RedirectToAction("Confirmacion");
+        }
+        
+        public ActionResult Confirmacion()
+        {
+            return View();
         }
     }
 }

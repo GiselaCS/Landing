@@ -219,6 +219,7 @@
                             </div>
                             <br />
                             <div class="form-group">
+                                
                                 @Html.EditorFor(model => model.Correo, new { htmlAttributes = new { @class = "form-control", @id = "correo", @placeholder = "Ingresa tu Correo" } })
                                 @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "help-block text-danger" })
 
@@ -228,7 +229,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                @Html.TextAreaFor(model => model.Comentario, new { htmlAttributes = new { @class = "form-control", @id = "comentario", @placeholder = "Ingresa un comentario" } })
+                                @Html.EditorFor(model => model.Comentario, new { htmlAttributes = new { @class = "form-control", @id = "comentario", @placeholder = "Ingresa un comentario" } })
                                 @Html.ValidationMessageFor(model => model.Comentario, "", new { @class = "help-block text-danger" })
 
                             </div>
@@ -253,6 +254,13 @@
 
                     <div class="col-lg-4 text-lg-right">
                         <a class="mr-3" href="#!">Prolitica de privacidad</a>
+
+                    </div>
+
+                    <div class="col-lg-4 text-lg-right">
+                        <p>
+                            @Html.ActionLink("Usuarios Registrados", "Details")
+                        </p>
 
                     </div>
                 </div>
