@@ -40,7 +40,7 @@ namespace landing.Controllers
         
         public ActionResult Confirmacion()
         {
-            return View();
+            return View("Confirmacion");
         }
     }
 }
