@@ -3,239 +3,209 @@
     Layout = null;
 }
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Landing page </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
-<body id="page-top">
-    <!-- Navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars ml-1"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav text-uppercase ml-auto">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portadas</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Información</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Autor</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Landing page </title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="~/css/Style.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="~/assets/img/navbar-logo.svg" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portadas</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Información</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Autor</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Bienvenido</div>
+                <div class="masthead-heading text-uppercase">El arte de la Guerra</div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#portfolio">Dime mas</a>
+            </div>
+        </header>
+        <!-- Portafolio-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portafolio</h2>
+                    <h3 class="section-subheading text-muted">Estas son algunas de las ediciones que tenemos disponibles.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="~/assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="~/assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="~/assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                            </a>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- informacion-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Información</h2>
+                    <h3 class="section-subheading text-muted">Libro El arte de la guerra de Sun Tzu</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="~/assets/img/about/1.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Creacion</h4>
+                                <h4 class="subheading">Antigua China</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">El arte de la guerra es un libro escrito por el general y estratega militar Sun Tzu hace aproximadamente 2.500 años en la antigua China.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="~/assets/img/about/2.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>¿de que nos habla?</h4>
+                                <h4 class="subheading"></h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Es un tratado sobre práctica militar y estrategia de guerra que se fundamenta en principios de la doctrina taoísta.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="~/assets/img/about/3.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Enseñanzas</h4>
+                                <h4 class="subheading"></h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Algunas de las enseñanzas fundamentales del libro son que lo ideal es vencer sin luchar y que la guerra se basa en el engaño y la confusión del enemigo. Asimismo, se destaca la importancia de saber ajustarse a las condiciones, ser capaces de defender las ventajas, aprovechar las oportunidades y tener claridad de visión y un sólido liderazgo.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="~/assets/img/about/4.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Importancia</h4>
+                                <h4 class="subheading"></h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Es considerado uno de los mejores y más vigentes libros de estrategia militar de todos los tiempos. Sus advertencias han tenido influencia a lo largo de la historia sobre grandes estrategas de la guerra y la política de Oriente y Occidente, como Nicolás Maquiavelo, Napoleón Bonaparte o Mao Zedong.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Leé
+                                <br />
+                                esta maravillosa
+                                <br />
+                                obra!
+                            </h4>
+                        </div>
+                    </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <!-- Masthead-->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">Bienvenido</div>
-            <div class="masthead-heading text-uppercase">El arte de la Guerra</div>
-            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Dime mas</a>
-        </div>
-    </header>
-    <!-- Portafolio-->
-    <section class="page-section bg-light" id="portfolio">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Portafolio</h2>
-                <h3 class="section-subheading text-muted">Estas son algunas de las ediciones que tenemos disponibles.</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
-                        </a>
-
-                    </div>
+        </section>
+        <!-- Autor-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Autor</h2>
+                    <h3 class="section-subheading text-muted">Sun Tzu.</h3>
                 </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
-                        </a>
+                <div class="row">
+                    <div class="">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="~/assets/img/team/1.jpg" alt="" />
+                            <h4>Sun Tzu fue un militar, estratega y filósofo de la antigua China a quien sus victorias en el campo de batalla inspiraron a escribir El arte de la guerra.</h4>
+                            <p class="text-muted">
+                                ‘Maestro Sun’.
 
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
-                        </a>
+                            </p>
 
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
-                        </a>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
-                        </a>
-
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- informacion-->
-    <section class="page-section" id="about">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Información</h2>
-                <h3 class="section-subheading text-muted">Libro El arte de la guerra de Sun Tzu</h3>
-            </div>
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>Creacion</h4>
-                            <h4 class="subheading">Antigua China</h4>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">El arte de la guerra es un libro escrito por el general y estratega militar Sun Tzu hace aproximadamente 2.500 años en la antigua China.</p></div>
                     </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>¿de que nos habla?</h4>
-                            <h4 class="subheading"></h4>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Es un tratado sobre práctica militar y estrategia de guerra que se fundamenta en principios de la doctrina taoísta.</p></div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>Enseñanzas</h4>
-                            <h4 class="subheading"></h4>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Algunas de las enseñanzas fundamentales del libro son que lo ideal es vencer sin luchar y que la guerra se basa en el engaño y la confusión del enemigo. Asimismo, se destaca la importancia de saber ajustarse a las condiciones, ser capaces de defender las ventajas, aprovechar las oportunidades y tener claridad de visión y un sólido liderazgo.</p></div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>Importancia</h4>
-                            <h4 class="subheading"></h4>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Es considerado uno de los mejores y más vigentes libros de estrategia militar de todos los tiempos. Sus advertencias han tenido influencia a lo largo de la historia sobre grandes estrategas de la guerra y la política de Oriente y Occidente, como Nicolás Maquiavelo, Napoleón Bonaparte o Mao Zedong.</p></div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>
-                            Leé
-                            <br />
-                            esta maravillosa
-                            <br />
-                            obra!
-                        </h4>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <!-- Autor-->
-    <section class="page-section bg-light" id="team">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Autor</h2>
-                <h3 class="section-subheading text-muted">Sun Tzu.</h3>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                        <h4>Sun Tzu fue un militar, estratega y filósofo de la antigua China a quien sus victorias en el campo de batalla inspiraron a escribir El arte de la guerra.</h4>
-                        <p class="text-muted">
-                            ‘Maestro Sun’.
+
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p class="large text-muted">
+                            Se calcula que vivió alrededor del siglo V a.C. Pese a que su nombre de nacimiento era Sun Wu, hoy en día lo conocemos por lo que en realidad es su título honorífico, Sun Tzu, que en español traduciría ‘Maestro Sun’. Su filosofía sobre la guerra ha tenido una enorme influencia a lo largo de la historia.
 
                         </p>
-
                     </div>
                 </div>
-
-
             </div>
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <p class="large text-muted">
-                        Se calcula que vivió alrededor del siglo V a.C. Pese a que su nombre de nacimiento era Sun Wu, hoy en día lo conocemos por lo que en realidad es su título honorífico, Sun Tzu, que en español traduciría ‘Maestro Sun’. Su filosofía sobre la guerra ha tenido una enorme influencia a lo largo de la historia.
+        </section>
+        <!-- Contact-->
 
-                    </p>
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contactanos</h2>
+                    <h3 class="section-subheading text-muted">¿deseas mas información del libro?</h3>
+                    <h4>Registrate!</h4>
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact-->
+                <!DOCTYPE html>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
 
-    <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading text-uppercase">Contactanos</h2>
-                <h3 class="section-subheading text-muted">¿deseas mas información del libro?</h3>
-                <h4>Registrate!</h4>
-            </div>
-            @using (Html.BeginForm())
-            {
-                @Html.AntiForgeryToken()
-                <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
                             <div class="form-group">
                                 @Html.EditorFor(model => model.Nombre, new { htmlAttributes = new { @class = "form-control", @id = "name", @placeholder = "Ingresa tu Nombre" } })
                                 @Html.ValidationMessageFor(model => model.Nombre, "", new { @class = "help-block text-danger" })
@@ -254,7 +224,7 @@
 
                             </div>
                             <br />
-                            
+
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
@@ -270,23 +240,34 @@
                         <input type="submit" value="Registrarse" class="btn btn-success" />
                     </div>
 
-                </form>
-            }
-            </div>
+                    
 
-    </section>
-    <!-- Footer-->
-    <footer class="footer py-4">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-left">Copyright © Gisela criollo 2021</div>
-                
-                <div class="col-lg-4 text-lg-right">
-                    <a class="mr-3" href="#!">Prolitica de privacidad</a>
-                   
+               
+            }
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">Copyright © Gisela criollo 2021</div>
+
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Prolitica de privacidad</a>
+
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</body>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="~/js/scripts.js"></script>
+    </body>
+
 </html>
